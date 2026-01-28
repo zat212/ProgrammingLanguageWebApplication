@@ -1,0 +1,26 @@
+package org.finalugproject.myugproject.DTO.request;
+
+// CodeRequest.java
+public class CodeRequest {
+    private String language;
+    private String code;
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+
+    // Getters and Setters
+}
